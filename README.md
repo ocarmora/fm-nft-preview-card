@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github Page](https://oscarvajalmora.github.io/fem-nft-preview-card/)
+- Live Site URL: [Github Page](https://oscarvajalmora.github.io/fm-nft-preview-card/)
 
 ## My process
 
