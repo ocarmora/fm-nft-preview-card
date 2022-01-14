@@ -60,7 +60,6 @@ body {
     &-title {
         font-weight: 600;
         margin: 10px 0;
-
     }
 
     &-description {
@@ -68,6 +67,7 @@ body {
         font-size: 18px;
         margin: 10px 0;
         line-height: 1.5;
+        color: $blue-soft;
     }
 
     &-info {
@@ -91,6 +91,7 @@ body {
         }
 
         &-days-left {
+            color: $blue-soft;
             font-weight: 300;
         }
 
@@ -107,6 +108,7 @@ body {
         align-items: center;
         font-weight: 300;
         padding: 0;
+        color: $blue-soft;
 
         img {
             border: 2px solid $white;
@@ -117,18 +119,18 @@ body {
         }
 
         a {
-            font-weight: 400;
             text-decoration: none;
-            color: inherit;
+            color: $white;
         }
     }
 
             
     a {
         text-decoration: none;            
+        color: $white;
 
         &:visited {
-            color: inherit;
+            color: $white;
         }
         
         &:hover {
@@ -143,7 +145,7 @@ body {
     max-width: 300px;
     text-align: center;
     line-height: 1.5;
-    
+
     a {
         color: $cyan;
         text-decoration: none;

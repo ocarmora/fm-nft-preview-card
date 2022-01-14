@@ -61,6 +61,7 @@ body {
   font-size: 18px;
   margin: 10px 0;
   line-height: 1.5;
+  color: #8bacda;
 }
 .card-info {
   margin: 10px 0;
@@ -79,6 +80,7 @@ body {
   font-weight: 400;
 }
 .card-info-days-left {
+  color: #8bacda;
   font-weight: 300;
 }
 .card hr {
@@ -91,6 +93,7 @@ body {
   align-items: center;
   font-weight: 300;
   padding: 0;
+  color: #8bacda;
 }
 .card-footer img {
   border: 2px solid white;
@@ -99,15 +102,15 @@ body {
   margin-right: 15px;
 }
 .card-footer a {
-  font-weight: 400;
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
 .card a {
   text-decoration: none;
+  color: white;
 }
 .card a:visited {
-  color: inherit;
+  color: white;
 }
 .card a:hover {
   color: #00fff7;
