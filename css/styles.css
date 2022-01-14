@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #14253d;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 30px;
+  border-radius: 15px;
+  max-width: 300px;
+}
+.card-image {
+  margin: 0 0 10px 0;
+  position: relative;
+}
+.card-image a {
+  display: flex;
+}
+.card-image a::before {
+  content: url("../images/icon-view.svg");
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 247, 0.5);
+  opacity: 0;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-image a:hover::before {
+  opacity: 1;
+}
+.card-image a img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.card-title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+.card-description {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.card-info {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card-info span {
+  display: flex;
+  align-items: center;
+}
+.card-info span img {
+  margin-right: 8px;
+}
+.card-info-price {
+  color: #00fff7;
+  font-weight: 400;
+}
+.card-info-days-left {
+  font-weight: 300;
+}
+.card hr {
+  margin: 10px 0;
+  border-color: #2f415b;
+}
+.card-footer {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  padding: 0;
+}
+.card-footer img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 35px;
+  margin-right: 15px;
+}
+.card-footer a {
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+.card a {
+  text-decoration: none;
+}
+.card a:visited {
+  color: inherit;
+}
+.card a:hover {
+  color: #00fff7;
+}
+
+.attribution {
+  margin-top: 15px;
+  max-width: 300px;
+  text-align: center;
+  line-height: 1.5;
+}
+.attribution a {
+  color: #00fff7;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
