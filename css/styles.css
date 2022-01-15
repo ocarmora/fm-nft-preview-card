@@ -22,6 +22,7 @@ body {
   padding: 25px 30px;
   border-radius: 15px;
   max-width: 300px;
+  box-shadow: 0 30px 55px #0d192b;
 }
 .card-image {
   margin: 0 0 10px 0;
@@ -77,7 +78,7 @@ body {
 }
 .card-info-price {
   color: #00fff7;
-  font-weight: 400;
+  font-weight: 600;
 }
 .card-info-days-left {
   color: #8bacda;
@@ -103,6 +104,7 @@ body {
 }
 .card-footer a {
   text-decoration: none;
+  font-weight: 400;
   color: white;
 }
 .card a {
